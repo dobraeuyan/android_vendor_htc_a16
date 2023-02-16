@@ -2,6 +2,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),a16ul)
+ifeq ($(TARGET_DEVICE),htc_a16ul)
 
 endif
