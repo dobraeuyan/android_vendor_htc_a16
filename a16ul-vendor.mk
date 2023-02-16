@@ -16,4 +16,6 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/a16ul/proprieta
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/a16ul/proprietary/vendor/lib,system/vendor/lib)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/a16ul/proprietary/vendor/thh,system/vendor/thh)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/a16ul/proprietary/vendor/media,system/vendor/media)
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/a16ul/proprietary/vendor/pittpatt,system/vendor/pittpatt)
