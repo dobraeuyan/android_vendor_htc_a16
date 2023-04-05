@@ -363,9 +363,9 @@ vendor/htc/htc_a16ul/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL
 
 # Firmware
 PRODUCT_COPY_FILES += \
-vendor/htc/htc_a16ul/propietary/vendor/firmware/keymaster.b00:system/vendor/firmware/keymaster.b00 \
-vendor/htc/htc_a16ul/propietary/vendor/firmware/keymaster.b01:system/vendor/firmware/keymaster.b01 \
-vendor/htc/htc_a16ul/propietary/vendor/firmware/keymaster.b02:system/vendor/firmware/keymaster.b02 \
-vendor/htc/htc_a16ul/propietary/vendor/firmware/keymaster.b03:system/vendor/firmware/keymaster.b03 \
-vendor/htc/htc_a16ul/propietary/vendor/firmware/keymaster.mdt:system/vendor/firmware/keymaster.mdt \
-vendor/htc/htc_a16ul/propietary/vendor/firmware/libpn549_fw.so:system/vendor/firmware/libpn549_fw.so
+vendor/htc/htc_a16ul/proprietary/vendor/firmware/keymaster.b00:system/vendor/firmware/keymaster.b00 \
+vendor/htc/htc_a16ul/proprietary/vendor/firmware/keymaster.b01:system/vendor/firmware/keymaster.b01 \
+vendor/htc/htc_a16ul/proprietary/vendor/firmware/keymaster.b02:system/vendor/firmware/keymaster.b02 \
+vendor/htc/htc_a16ul/proprietary/vendor/firmware/keymaster.b03:system/vendor/firmware/keymaster.b03 \
+vendor/htc/htc_a16ul/proprietary/vendor/firmware/keymaster.mdt:system/vendor/firmware/keymaster.mdt \
+vendor/htc/htc_a16ul/proprietary/vendor/firmware/libpn549_fw.so:system/vendor/firmware/libpn548_fw.so
