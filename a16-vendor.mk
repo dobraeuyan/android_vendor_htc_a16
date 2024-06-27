@@ -15,4 +15,4 @@
 PRODUCT_PACKAGES += \
     TimeService
 
-$(call inherit-product, vendor/htc/a16ul/a16ul-vendor-blobs.mk)
+$(call inherit-product, vendor/htc/a16/a16-vendor-blobs.mk)
