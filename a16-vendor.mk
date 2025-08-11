@@ -68,15 +68,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/a16/proprietary/etc/firmware/htc_drmprov.b02:system/etc/firmware/htc_drmprov.b02 \
     vendor/htc/a16/proprietary/etc/firmware/htc_drmprov.b03:system/etc/firmware/htc_drmprov.b03 \
     vendor/htc/a16/proprietary/etc/firmware/htc_drmprov.mdt:system/etc/firmware/htc_drmprov.mdt \
-    vendor/htc/a16/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
-    vendor/htc/a16/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
     vendor/htc/a16/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/htc/a16/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/htc/a16/proprietary/etc/firmware/lscbuffer_rev2.bin:system/etc/firmware/lscbuffer_rev2.bin \
-    vendor/htc/a16/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
-    vendor/htc/a16/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
-    vendor/htc/a16/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
-    vendor/htc/a16/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
     vendor/htc/a16/proprietary/etc/firmware/tbase.b00:system/etc/firmware/tbase.b00 \
     vendor/htc/a16/proprietary/etc/firmware/tbase.b01:system/etc/firmware/tbase.b01 \
     vendor/htc/a16/proprietary/etc/firmware/tbase.b02:system/etc/firmware/tbase.b02 \
@@ -104,7 +98,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/a16/proprietary/lib/hw/lights.msm8909.so:system/lib/hw/lights.msm8909.so \
     vendor/htc/a16/proprietary/lib/hw/sensors.msm8909.so:system/lib/hw/sensors.msm8909.so \
     vendor/htc/a16/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
-    vendor/htc/a16/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/a16/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
     vendor/htc/a16/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/htc/a16/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
@@ -667,3 +660,5 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libTimeService \
     TimeService
+    
+#vendor/htc/a16/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
